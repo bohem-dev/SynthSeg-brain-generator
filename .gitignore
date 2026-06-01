@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv*/
+.venv/
+*.nii.gz
+!data/sample/*.nii.gz
+*.nii
+/data/.tmp/
+/data/preprocessed/
+/data/results/
+.DS_Store
