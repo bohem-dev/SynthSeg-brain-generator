@@ -32,9 +32,9 @@ A small synthetic label map is included for quick testing. Generate it with:
 python data/sample/create_sample.py
 ```
 
-This creates `data/sample/label.nii.gz` (96x96x96, 14 labels, no internet required).
+This creates `data/sample/label.nii.gz` (96x96x96, 14 labels).
 
-For realistic experiments, use real label maps. The [IXI dataset](https://brain-development.org/ixi-dataset/) provides FreeSurfer parcellations for ~600 subjects under CC BY-SA 3.0. The comparison scripts were originally tested with IXI subjects (e.g. `IXI002-Guys-0828-SEG.nii.gz`).
+Comparison scripts were originally tested with IXI subjects (e.g. `IXI002-Guys-0828-SEG.nii.gz`).
 
 
 ## Usage
